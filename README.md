@@ -13,6 +13,7 @@ git push -u origin main
 following which, any local changes can be pushed using:
 ```
 git add <filename>
+git commit -m <message>
 git push origin main
 ```
 To pull changes from the GitHub repository onto your local machine use:
