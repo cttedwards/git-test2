@@ -29,3 +29,15 @@ Status of the local repository can be checked any time using:
 ```
 git status
 ```
+
+For large files use:
+```
+git lfs track <filename or suffix>
+```
+and then push:
+```
+git add .gitattributes
+git add <filename>
+git commit -m "add large file"
+git push origin main
+```
